@@ -41,23 +41,23 @@ public class StudentHelperMeothods
         switch (answer)
         {
             case "G":
-                StudentHelperMeothods.ShowStudentGrades();
+                ShowStudentGrades();
                 break;
 
             case "S":
-                StudentHelperMeothods.ShowStudentSubjects();
+                ShowStudentSubjects();
                 break;
 
             case "M":
-                StudentHelperMeothods.ShowStudentMentors();
+                ShowStudentMentors();
                 break;
 
             case "add":
-                StudentHelperMeothods.AddSubject();
+                AddSubject();
                 break;
 
             case "drop":
-                StudentHelperMeothods.DropSubject();
+                DropSubject();
                 break;
 
             default:
